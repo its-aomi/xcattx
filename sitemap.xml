@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="https://xcattx.com/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- Sitemap is generated on 2022-06-08 06:55:59 GMT -->
+<!-- Sitemap is generated on 2022-06-12 14:09:08 GMT -->
 	<url>
 		<loc>https://xcattx.com/</loc>
-		<lastmod>2022-05-20T15:26+00:00</lastmod>
+		<lastmod>2022-06-12T05:08+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/privacy-policy/</loc>
@@ -19,36 +19,40 @@
 		<lastmod>2022-06-08T03:47+00:00</lastmod>
 	</url>
 	<url>
+		<loc>https://xcattx.com/css-cards/</loc>
+		<lastmod>2022-06-12T13:58+00:00</lastmod>
+	</url>
+	<url>
 		<loc>https://xcattx.com/beautify-ugly-code/</loc>
 		<lastmod>2022-06-08T02:33+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/javascript-calculators/</loc>
-		<lastmod>2022-06-07T14:47+00:00</lastmod>
+		<lastmod>2022-06-12T11:00+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/javascript-password-generators/</loc>
-		<lastmod>2022-06-07T14:48+00:00</lastmod>
+		<lastmod>2022-06-12T11:00+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/php-password-generators/</loc>
-		<lastmod>2022-06-07T14:51+00:00</lastmod>
+		<lastmod>2022-06-12T11:01+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/c-password-generators/</loc>
-		<lastmod>2022-06-08T04:51+00:00</lastmod>
+		<lastmod>2022-06-12T10:58+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/python-password-generators/</loc>
-		<lastmod>2022-06-07T14:53+00:00</lastmod>
+		<lastmod>2022-06-12T11:01+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/javascript-clocks/</loc>
-		<lastmod>2022-06-08T05:03+00:00</lastmod>
+		<lastmod>2022-06-12T11:01+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/java-password-generators/</loc>
-		<lastmod>2022-06-08T05:02+00:00</lastmod>
+		<lastmod>2022-06-12T11:00+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/free-domain-name/</loc>
@@ -60,7 +64,7 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/c-sharp-password-generators/</loc>
-		<lastmod>2022-06-08T04:52+00:00</lastmod>
+		<lastmod>2022-06-12T10:58+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/enable-cloudflare-cache-everything-on-wordpress/</loc>
@@ -68,47 +72,47 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/cpp-password-generators/</loc>
-		<lastmod>2022-06-08T05:01+00:00</lastmod>
+		<lastmod>2022-06-12T10:59+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/php-clocks/</loc>
-		<lastmod>2022-06-07T14:52+00:00</lastmod>
+		<lastmod>2022-06-12T11:01+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/python-clocks/</loc>
-		<lastmod>2022-06-08T05:07+00:00</lastmod>
+		<lastmod>2022-06-12T11:01+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/cpp-clocks/</loc>
-		<lastmod>2022-06-07T14:20+00:00</lastmod>
+		<lastmod>2022-06-12T10:59+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/java-clocks/</loc>
-		<lastmod>2022-06-07T14:43+00:00</lastmod>
+		<lastmod>2022-06-12T11:00+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/java-calculators/</loc>
-		<lastmod>2022-06-07T14:39+00:00</lastmod>
+		<lastmod>2022-06-12T11:00+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/c-sharp-calculators/</loc>
-		<lastmod>2022-06-07T14:28+00:00</lastmod>
+		<lastmod>2022-06-12T10:59+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/c-sharp-clocks/</loc>
-		<lastmod>2022-06-08T04:53+00:00</lastmod>
+		<lastmod>2022-06-12T10:59+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/python-calculators/</loc>
-		<lastmod>2022-06-07T14:55+00:00</lastmod>
+		<lastmod>2022-06-12T11:02+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/cpp-calculators/</loc>
-		<lastmod>2022-06-08T05:01+00:00</lastmod>
+		<lastmod>2022-06-12T10:59+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/c-calculators/</loc>
-		<lastmod>2022-06-08T04:51+00:00</lastmod>
+		<lastmod>2022-06-12T10:58+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/minimize-html-css-js-files/</loc>
@@ -123,4 +127,4 @@
 		<lastmod>2022-06-08T02:12+00:00</lastmod>
 	</url>
 </urlset>
-<!-- Sitemap is generated for this view -->
+<!-- Sitemap is served from cache -->
