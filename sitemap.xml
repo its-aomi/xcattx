@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="https://xcattx.com/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- Sitemap is generated on 2022-06-12 14:38:48 GMT -->
+<!-- Sitemap is generated on 2022-06-13 02:21:04 GMT -->
 	<url>
 		<loc>https://xcattx.com/</loc>
 		<lastmod>2022-06-12T05:08+00:00</lastmod>
@@ -20,7 +20,7 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-cards/</loc>
-		<lastmod>2022-06-12T13:58+00:00</lastmod>
+		<lastmod>2022-06-13T02:20+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/beautify-ugly-code/</loc>
