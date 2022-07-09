@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="https://xcattx.com/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- Sitemap is generated on 2022-07-08 20:28:42 GMT -->
+<!-- Sitemap is generated on 2022-07-09 18:17:21 GMT -->
 	<url>
 		<loc>https://xcattx.com/</loc>
-		<lastmod>2022-07-08T15:44+00:00</lastmod>
+		<lastmod>2022-07-09T16:32+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/privacy-policy/</loc>
@@ -17,6 +17,18 @@
 	<url>
 		<loc>https://xcattx.com/about-me/</loc>
 		<lastmod>2022-06-08T03:47+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/javascript-odd-even/</loc>
+		<lastmod>2022-07-09T18:15+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/css-news-cards/</loc>
+		<lastmod>2022-07-09T18:15+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/css-weather-cards/</loc>
+		<lastmod>2022-07-09T18:16+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-movie-cards/</loc>
@@ -404,15 +416,15 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/java-calculators/</loc>
-		<lastmod>2022-06-12T11:00+00:00</lastmod>
+		<lastmod>2022-07-09T14:46+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/c-sharp-calculators/</loc>
-		<lastmod>2022-06-12T10:59+00:00</lastmod>
+		<lastmod>2022-07-09T11:06+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/c-sharp-clocks/</loc>
-		<lastmod>2022-06-12T10:59+00:00</lastmod>
+		<lastmod>2022-07-09T08:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/python-calculators/</loc>
