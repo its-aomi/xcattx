@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="https://xcattx.com/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- Sitemap is generated on 2022-07-10 18:47:02 GMT -->
+<!-- Sitemap is generated on 2022-07-11 19:46:34 GMT -->
 	<url>
 		<loc>https://xcattx.com/</loc>
-		<lastmod>2022-07-10T14:36+00:00</lastmod>
+		<lastmod>2022-07-11T10:41+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/privacy-policy/</loc>
@@ -17,6 +17,26 @@
 	<url>
 		<loc>https://xcattx.com/about-me/</loc>
 		<lastmod>2022-06-08T03:47+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/bootstrap-cards/</loc>
+		<lastmod>2022-07-11T19:36+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/jquery-cards/</loc>
+		<lastmod>2022-07-11T19:35+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/css-card-hover-effects/</loc>
+		<lastmod>2022-07-11T19:35+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/css-product-cards/</loc>
+		<lastmod>2022-07-11T19:35+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/css-blog-cards/</loc>
+		<lastmod>2022-07-11T19:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/cpp-reverse-a-number/</loc>
@@ -424,15 +444,15 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/python-clocks/</loc>
-		<lastmod>2022-06-12T11:01+00:00</lastmod>
+		<lastmod>2022-07-11T08:58+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/cpp-clocks/</loc>
-		<lastmod>2022-06-12T10:59+00:00</lastmod>
+		<lastmod>2022-07-11T08:44+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/java-clocks/</loc>
-		<lastmod>2022-06-12T11:00+00:00</lastmod>
+		<lastmod>2022-07-11T08:37+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/java-calculators/</loc>
@@ -452,7 +472,7 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/cpp-calculators/</loc>
-		<lastmod>2022-07-08T07:18+00:00</lastmod>
+		<lastmod>2022-07-11T08:38+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/c-calculators/</loc>
