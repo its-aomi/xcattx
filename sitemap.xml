@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="https://xcattx.com/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- Sitemap is generated on 2022-07-15 18:11:33 GMT -->
+<!-- Sitemap is generated on 2022-07-16 19:28:35 GMT -->
 	<url>
 		<loc>https://xcattx.com/</loc>
-		<lastmod>2022-07-15T14:27+00:00</lastmod>
+		<lastmod>2022-07-16T11:10+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/privacy-policy/</loc>
@@ -19,8 +19,28 @@
 		<lastmod>2022-06-08T03:47+00:00</lastmod>
 	</url>
 	<url>
+		<loc>https://xcattx.com/css-buttons/</loc>
+		<lastmod>2022-07-16T19:22+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/css-close-buttons/</loc>
+		<lastmod>2022-07-16T19:22+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/css-3d-buttons/</loc>
+		<lastmod>2022-07-16T19:21+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/css-submit-buttons/</loc>
+		<lastmod>2022-07-16T19:21+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/css-download-buttons/</loc>
+		<lastmod>2022-07-16T19:20+00:00</lastmod>
+	</url>
+	<url>
 		<loc>https://xcattx.com/css-button-hover-effects/</loc>
-		<lastmod>2022-07-15T17:02+00:00</lastmod>
+		<lastmod>2022-07-16T06:43+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-recipe-layouts/</loc>
@@ -40,7 +60,7 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/bootstrap-cards/</loc>
-		<lastmod>2022-07-11T19:36+00:00</lastmod>
+		<lastmod>2022-07-16T05:23+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/jquery-cards/</loc>
@@ -48,15 +68,15 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-card-hover-effects/</loc>
-		<lastmod>2022-07-11T19:35+00:00</lastmod>
+		<lastmod>2022-07-16T05:23+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-product-cards/</loc>
-		<lastmod>2022-07-11T19:35+00:00</lastmod>
+		<lastmod>2022-07-16T05:24+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-blog-cards/</loc>
-		<lastmod>2022-07-11T19:35+00:00</lastmod>
+		<lastmod>2022-07-16T05:24+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/cpp-reverse-a-number/</loc>
@@ -84,7 +104,7 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-news-cards/</loc>
-		<lastmod>2022-07-09T18:15+00:00</lastmod>
+		<lastmod>2022-07-16T05:25+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-weather-cards/</loc>
@@ -92,15 +112,15 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-movie-cards/</loc>
-		<lastmod>2022-07-08T20:27+00:00</lastmod>
+		<lastmod>2022-07-16T05:28+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-recipe-cards/</loc>
-		<lastmod>2022-07-08T20:26+00:00</lastmod>
+		<lastmod>2022-07-16T05:29+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-music-cards/</loc>
-		<lastmod>2022-07-08T20:26+00:00</lastmod>
+		<lastmod>2022-07-16T05:31+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/python-odd-even/</loc>
