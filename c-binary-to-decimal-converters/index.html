@@ -31,7 +31,7 @@
 <meta name="twitter:image:alt" content="C Binary to Decimal Converters">
 <link rel="canonical" href="https://xcattx.com/c-binary-to-decimal-converters/">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://xcattx.com/","name":"xCATTX.COM"}},{"@type":"ListItem","position":2,"item":{"@id":"https://xcattx.com/category/source-codes/","name":"👨‍💻 Source Codes"}},{"@type":"ListItem","position":3,"item":{"@id":"https://xcattx.com/category/source-codes/c/","name":"💙 C"}},{"@type":"ListItem","position":4,"item":{"@id":"https://xcattx.com/c-binary-to-decimal-converters/","name":"35+ C Binary to Decimal Converter Examples"}}]}</script>
-<!-- / The SEO Framework by Sybre Waaijer | 3.63ms meta | 11.13ms boot -->
+<!-- / The SEO Framework by Sybre Waaijer | 5.29ms meta | 13.90ms boot -->
 
 <link rel="dns-prefetch" href="//s.w.org">
 <script>
@@ -1101,7 +1101,7 @@ int contain(char in&#91;],char s)
 #define VERSION "1.6"
 
 
-/*  &#8211; ---------------- &#8211;    Global Options &#8211; ------------------- &#8211; */
+/*  --------------------    Global Options ----------------------- */
 int bin2bin;            //  Binary output
 int bin2dec;            //  Do binary to decimal conversion (default)
 int bin2hex;            //  binary to hex
@@ -1136,8 +1136,8 @@ void print_help(void)
     printf("\nThis program converts a binary number to a decimal number.\n" );
 
     printf("\nOptions:\n");
-    printf("  -h or &#8211; help\tPrint this help text\n");
-    printf("  &#8211; version\tPrint version and author info\n");
+    printf("  -h or --help\tPrint this help text\n");
+    printf("  --version\tPrint version and author info\n");
     printf("  -\t\tRead from stdin\n");
     printf("  -v\t\tEnable verbose output (print what type each result is)\n");
     printf("  -d\t\tDecimal output (default)\n");
@@ -1249,7 +1249,7 @@ double binary_to_decimal( char *s )
     //  If we're doing the big-endian thing (default)
     if( bigEndian == 1 )
     {
-        for( i = strlen(s); i &gt;= 0; &#8211; i )
+        for( i = strlen(s); i &gt;= 0; --i )
         {
             /*  If we hit a newline or a null char, just ignore it */
             if( s&#91;i] == '\n' || s&#91;i] == '\0' )
@@ -1776,7 +1776,7 @@ int main( int argc, char *argv&#91;] )
         if( textMode == 1 )
         {
             number_to_string( argv&#91;1] );
-            &#8211; argc;
+            --argc;
             ++argv;
             ++pCount;
             continue;
@@ -1787,7 +1787,7 @@ int main( int argc, char *argv&#91;] )
         {
             /*  If it isn't, tell them but don't kill the program */
             fprintf(stderr, "WARNING:  Not a binary number:\t%s\n", argv&#91;1] );
-            &#8211; argc;
+            --argc;
             ++argv;
             ++pCount;
             continue;
@@ -1814,7 +1814,7 @@ int main( int argc, char *argv&#91;] )
             return(1);
 
         /*  Increment or decrement our various lists and counters */
-        &#8211; argc;
+        --argc;
         ++argv;
         ++pCount;
     }
@@ -2658,12 +2658,12 @@ var astra = {"break_point":"921","isRtl":""};
 </script>
 <script src="https://xcattx.com/wp-content/themes/astra/assets/js/minified/frontend.min.js" id="astra-theme-js-js"></script>
 <script id="juiz_sps_scripts-js-extra">
-var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"14f1fcc369","clickCountNonce":"699a96e81a","getCountersNonce":"ef602681c9","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
-var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"14f1fcc369","clickCountNonce":"699a96e81a","getCountersNonce":"ef602681c9","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
-var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"14f1fcc369","clickCountNonce":"699a96e81a","getCountersNonce":"ef602681c9","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
-var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"14f1fcc369","clickCountNonce":"699a96e81a","getCountersNonce":"ef602681c9","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
-var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"14f1fcc369","clickCountNonce":"699a96e81a","getCountersNonce":"ef602681c9","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
-var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"14f1fcc369","clickCountNonce":"699a96e81a","getCountersNonce":"ef602681c9","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
+var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"edafa9da49","clickCountNonce":"fa7139af47","getCountersNonce":"e811d535ba","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
+var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"edafa9da49","clickCountNonce":"fa7139af47","getCountersNonce":"e811d535ba","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
+var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"edafa9da49","clickCountNonce":"fa7139af47","getCountersNonce":"e811d535ba","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
+var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"edafa9da49","clickCountNonce":"fa7139af47","getCountersNonce":"e811d535ba","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
+var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"edafa9da49","clickCountNonce":"fa7139af47","getCountersNonce":"e811d535ba","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
+var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"edafa9da49","clickCountNonce":"fa7139af47","getCountersNonce":"e811d535ba","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
 </script>
 <script defer src="https://xcattx.com/wp-content/plugins/juiz-social-post-sharer/assets/js/juiz-social-post-sharer.min.js" id="juiz_sps_scripts-js"></script>
 <script id="jquery-lazyloadxt-js-extra">

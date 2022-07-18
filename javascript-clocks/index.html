@@ -31,7 +31,7 @@
 <meta name="twitter:image:alt" content="JavaScript Clocks">
 <link rel="canonical" href="https://xcattx.com/javascript-clocks/">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://xcattx.com/","name":"xCATTX.COM"}},{"@type":"ListItem","position":2,"item":{"@id":"https://xcattx.com/category/source-codes/","name":"👨‍💻 Source Codes"}},{"@type":"ListItem","position":3,"item":{"@id":"https://xcattx.com/category/source-codes/js/","name":"💚 JavaScript"}},{"@type":"ListItem","position":4,"item":{"@id":"https://xcattx.com/javascript-clocks/","name":"51 JavaScript Clock Examples"}}]}</script>
-<!-- / The SEO Framework by Sybre Waaijer | 4.25ms meta | 15.78ms boot -->
+<!-- / The SEO Framework by Sybre Waaijer | 6.63ms meta | 11.81ms boot -->
 
 <link rel="dns-prefetch" href="//s.w.org">
 <script>
@@ -888,29 +888,29 @@ html {
 }
 
 .light-theme {
-    &#8211; background : #FFDC89 ;
-    &#8211; clock-body-color : #ffffff ;
-    &#8211; on-clock-body-color : #5eaaa8 ;
+    --background : #FFDC89 ;
+    --clock-body-color : #ffffff ;
+    --on-clock-body-color : #5eaaa8 ;
 
-    &#8211; clock-labels-color : #5eaaa8 ;
-    &#8211; big-clock-labels-color : #056676 ;
+    --clock-labels-color : #5eaaa8 ;
+    --big-clock-labels-color : #056676 ;
 
-    &#8211; hour-hand-color: #91d18b ;
-    &#8211; minute-hand-color: #ffbd69 ;
-    &#8211; second-hand-color: #ED6D79 ;
+    --hour-hand-color: #91d18b ;
+    --minute-hand-color: #ffbd69 ;
+    --second-hand-color: #ED6D79 ;
 }
 
 .dark-theme {
-    &#8211; background : #1b262cf5 ;
-    &#8211; clock-body-color : #1b262c;
-    &#8211; on-clock-body-color : #00bcd4 ;
+    --background : #1b262cf5 ;
+    --clock-body-color : #1b262c;
+    --on-clock-body-color : #00bcd4 ;
 
-    &#8211; clock-labels-color : #5eaaa8 ;
-    &#8211; big-clock-labels-color : #056676 ;
+    --clock-labels-color : #5eaaa8 ;
+    --big-clock-labels-color : #056676 ;
 
-    &#8211; hour-hand-color: #91d18b ;
-    &#8211; minute-hand-color: #ffbd69 ;
-    &#8211; second-hand-color: #e11d74 ;
+    --hour-hand-color: #91d18b ;
+    --minute-hand-color: #ffbd69 ;
+    --second-hand-color: #e11d74 ;
 }
 
 .wrapper {
@@ -929,7 +929,7 @@ html {
 }
 
 .clock-container {
-    &#8211; clock-size : 80vmin ;
+    --clock-size : 80vmin ;
 
     position: relative ;
     width : var(--clock-size);
@@ -937,7 +937,7 @@ html {
 }
 
 .clock-container .clock-body {
-    &#8211; label-margin :1.5rem;
+    --label-margin :1.5rem;
 
     position: relative ;
     width : 100% ;
@@ -974,7 +974,7 @@ html {
 }
 
 .clock-container .clock-body .clock-labels .clock-label-row {
-    &#8211; label-angle : 90deg ;
+    --label-angle : 90deg ;
     position: absolute ;
     top : 50% ;
     left: 50% ;
@@ -1001,22 +1001,22 @@ html {
 }
 
 .clock-container .clock-body .clock-labels .clock-label-row:nth-of-type(1) {
-    &#8211; label-angle:0deg;
+    --label-angle:0deg;
 }
 .clock-container .clock-body .clock-labels .clock-label-row:nth-of-type(2) {
-    &#8211; label-angle:30deg;
+    --label-angle:30deg;
 }
 .clock-container .clock-body .clock-labels .clock-label-row:nth-of-type(3) {
-    &#8211; label-angle:60deg;
+    --label-angle:60deg;
 }
 .clock-container .clock-body .clock-labels .clock-label-row:nth-of-type(4) {
-    &#8211; label-angle:90deg;
+    --label-angle:90deg;
 }
 .clock-container .clock-body .clock-labels .clock-label-row:nth-of-type(5) {
-    &#8211; label-angle:120deg;
+    --label-angle:120deg;
 }
 .clock-container .clock-body .clock-labels .clock-label-row:nth-of-type(6) {
-    &#8211; label-angle:150deg;
+    --label-angle:150deg;
 }
 
 .clock-container .clock-body  .clock-hands {
@@ -1047,28 +1047,28 @@ html {
 }
 
 .clock-container .clock-body .clock-hands .clock-second-hand {
-    &#8211; hand-length: calc(42.5% - var(--label-margin)) ;
-    &#8211; hand-timeperiod : 60s ;
-    &#8211; hand-tail-length : 1rem ;
-    &#8211; hand-width:0.15rem;
+    --hand-length: calc(42.5% - var(--label-margin)) ;
+    --hand-timeperiod : 60s ;
+    --hand-tail-length : 1rem ;
+    --hand-width:0.15rem;
 
     background-color: var(--second-hand-color) ;
 }
 
 .clock-container .clock-body .clock-hands .clock-minute-hand {
-    &#8211; hand-length: calc(37.5% - var(--label-margin)) ;
-    &#8211; hand-timeperiod : 3600s ;
-    &#8211; hand-tail-length : 0.75rem ;
-    &#8211; hand-width:0.25rem;
+    --hand-length: calc(37.5% - var(--label-margin)) ;
+    --hand-timeperiod : 3600s ;
+    --hand-tail-length : 0.75rem ;
+    --hand-width:0.25rem;
 
     background-color: var(--minute-hand-color) ;
 }
 
 .clock-container .clock-body .clock-hands .clock-hour-hand {
-    &#8211; hand-length: calc(27.5% - var(--label-margin)) ;
-    &#8211; hand-timeperiod  : 43200s ;
-    &#8211; hand-tail-length : 0.5rem ;
-    &#8211; hand-width:0.35rem;
+    --hand-length: calc(27.5% - var(--label-margin)) ;
+    --hand-timeperiod  : 43200s ;
+    --hand-tail-length : 0.5rem ;
+    --hand-width:0.35rem;
 
     background-color: var(--hour-hand-color) ;
 }
@@ -1856,7 +1856,7 @@ this.onload = function()
 {
   var sec, min, hr, clock, secondHand, minuteHand, hourHand, secDeg, minDeg, hrDeg, radius, start, i, spanDeg, top, right, clockIsPaused;
   
-  //loading clock &#8211; ---&gt;
+  //loading clock -----&gt;
   
   function loadClock()
   {
@@ -1877,7 +1877,7 @@ this.onload = function()
   
   radius = ((clock.offsetWidth - 20) / 2);
 
-  //starting clock &#8211; ---&gt;
+  //starting clock -----&gt;
   
   function clockFunc()
   {
@@ -1899,7 +1899,7 @@ this.onload = function()
   { start = setInterval(clockFunc, 1000); }
   startClock();
 
-  //creating hours strokes (with the &lt;span&gt; tag) &#8211; ---&gt;
+  //creating hours strokes (with the &lt;span&gt; tag) -----&gt;
   
   for (i = 0, spanDeg = 0; i &lt; 12; i++, spanDeg += 30)
   {
@@ -1913,7 +1913,7 @@ this.onload = function()
     clock.getElementsByClassName("d"+i)&#91;0].style.right = ((radius - 1.5) - right) + "px";
   }
 
-  //creating minutes strokes (with the &lt;span&gt; tag) &#8211; ---&gt;
+  //creating minutes strokes (with the &lt;span&gt; tag) -----&gt;
   
   for (i = 0, spanDeg = 0; i &lt; 60; i++, spanDeg += 6)
   {
@@ -1931,7 +1931,7 @@ this.onload = function()
     else continue;
   }
 
-  //freeze/unfreeze time &#8211; ---&gt;
+  //freeze/unfreeze time -----&gt;
   
   ID("my-name").onclick = function()
   {
@@ -1945,7 +1945,7 @@ this.onload = function()
   };
 };
 
-//END &#8211; ---&gt;</code></pre>
+//END -----&gt;</code></pre>
 
 
 
@@ -2315,8 +2315,8 @@ a{
     border-radius: 5px;
 }  
 :root {
-  &#8211; primary-color: #000;
-  &#8211; secondary-color: #fff;
+  --primary-color: #000;
+  --secondary-color: #fff;
 }
 
 html {
@@ -2324,8 +2324,8 @@ html {
 }
 
 html.dark {
-  &#8211; primary-color: #fff;
-  &#8211; secondary-color: #333;
+  --primary-color: #fff;
+  --secondary-color: #333;
 }
 
 html.dark {
@@ -2546,7 +2546,7 @@ setInterval(setTime, 1000)
         &lt;div class="mid-point"&gt;&lt;/div&gt;
     &lt;/section&gt;
     
-    &lt;! &#8211; Script is only for updating time--&gt;
+    &lt;!-- Script is only for updating time--&gt;
     &lt;script&gt;
     
         let hourHand = document.querySelector('.hour-hand');
@@ -4561,7 +4561,7 @@ body {
 #aud{
     display:none;
 }
-/*loader code      &#8211;   -  - - - - - - -  - - - - - */
+/*loader code      --   -  - - - - - - -  - - - - - */
 .loader_container{
     position:fixed;
     top:0;
@@ -6671,17 +6671,17 @@ document.getElementById("sec").style.transform = "rotate(" + sec * 6 + "deg)";
 
 
 :root {
-    &#8211; pi:calc(22 / 7);
-    &#8211; cr:white;
-    &#8211; st:#3bb4c4;
-    &#8211; bg:#0000;
-    &#8211; sg:green;
-    &#8211; ss:#3bb4c4;
-    &#8211; r:red;
-    &#8211; b:blue;
-    &#8211; p:pink;
-    &#8211; pl:purple;
-    &#8211; y:yellow;
+    --pi:calc(22 / 7);
+    --cr:white;
+    --st:#3bb4c4;
+    --bg:#0000;
+    --sg:green;
+    --ss:#3bb4c4;
+    --r:red;
+    --b:blue;
+    --p:pink;
+    --pl:purple;
+    --y:yellow;
 }
 * {
     padding: 0;
@@ -8334,7 +8334,7 @@ let rootElem = document.querySelector('#app');
     &lt;/head&gt;
     &lt;body onload="time()"&gt;
     
-    &lt;! &#8211; Loader &#8211; &gt;
+    &lt;!-- Loader --&gt;
     &lt;div id="cont"&gt;
     &lt;div class = "loader"  &gt;
         &lt;span&gt;&lt;/span&gt;
@@ -8347,7 +8347,7 @@ let rootElem = document.querySelector('#app');
     &lt;/div&gt;      
     &lt;/div&gt;
     
-     &lt;! &#8211; Clock &#8211; &gt;
+     &lt;!-- Clock --&gt;
     &lt;div id="clock" &gt;
     
         &lt;div id="hour"&gt;&lt;/div&gt; 
@@ -8809,11 +8809,11 @@ setInterval(time,1000);</code></pre>
 &lt;html&gt;
     &lt;head&gt;
     &lt;/head&gt;
- &lt;! &#8211; this clock is not made for pc &#8211; &gt;
+ &lt;!-- this clock is not made for pc --&gt;
     &lt;body onload="start()"&gt;
        &lt;h1&gt;&lt;b&gt;&lt;p align="center"&gt;&lt;/p&gt;&lt;/b&gt;&lt;/h1&gt;&lt;b&gt;&lt;h4&gt; &lt;canvas id="canvas" width="350"   height="190px"&gt;&lt;/canvas&gt;
      &lt;div align="center"&gt;&lt;/div&gt;&lt;/b&gt;&lt;/h4&gt;&lt;br /&gt; 
-&lt;! &#8211; date (Script) &#8211; &gt;
+&lt;!-- date (Script) --&gt;
  &lt;i&gt;&lt;b&gt;&lt;p id="date"&gt;&lt;/p&gt;&lt;/b&gt;&lt;/i&gt;
 &lt;script&gt;
 document.getElementById("date").innerHTML = Date();
@@ -9470,12 +9470,12 @@ var astra = {"break_point":"921","isRtl":""};
 </script>
 <script src="https://xcattx.com/wp-content/themes/astra/assets/js/minified/frontend.min.js" id="astra-theme-js-js"></script>
 <script id="juiz_sps_scripts-js-extra">
-var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"14f1fcc369","clickCountNonce":"699a96e81a","getCountersNonce":"ef602681c9","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
-var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"14f1fcc369","clickCountNonce":"699a96e81a","getCountersNonce":"ef602681c9","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
-var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"14f1fcc369","clickCountNonce":"699a96e81a","getCountersNonce":"ef602681c9","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
-var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"14f1fcc369","clickCountNonce":"699a96e81a","getCountersNonce":"ef602681c9","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
-var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"14f1fcc369","clickCountNonce":"699a96e81a","getCountersNonce":"ef602681c9","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
-var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"14f1fcc369","clickCountNonce":"699a96e81a","getCountersNonce":"ef602681c9","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
+var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"edafa9da49","clickCountNonce":"fa7139af47","getCountersNonce":"e811d535ba","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
+var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"edafa9da49","clickCountNonce":"fa7139af47","getCountersNonce":"e811d535ba","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
+var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"edafa9da49","clickCountNonce":"fa7139af47","getCountersNonce":"e811d535ba","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
+var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"edafa9da49","clickCountNonce":"fa7139af47","getCountersNonce":"e811d535ba","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
+var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"edafa9da49","clickCountNonce":"fa7139af47","getCountersNonce":"e811d535ba","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
+var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"edafa9da49","clickCountNonce":"fa7139af47","getCountersNonce":"e811d535ba","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
 </script>
 <script defer src="https://xcattx.com/wp-content/plugins/juiz-social-post-sharer/assets/js/juiz-social-post-sharer.min.js" id="juiz_sps_scripts-js"></script>
 <script id="jquery-lazyloadxt-js-extra">

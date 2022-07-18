@@ -31,7 +31,7 @@
 <meta name="twitter:image:alt" content="Python Tic Tac Toe">
 <link rel="canonical" href="https://xcattx.com/python-tic-tac-toe/">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://xcattx.com/","name":"xCATTX.COM"}},{"@type":"ListItem","position":2,"item":{"@id":"https://xcattx.com/category/source-codes/","name":"👨‍💻 Source Codes"}},{"@type":"ListItem","position":3,"item":{"@id":"https://xcattx.com/category/source-codes/python/","name":"💚 Python"}},{"@type":"ListItem","position":4,"item":{"@id":"https://xcattx.com/python-tic-tac-toe/","name":"20+ Python Tic Tac Toe Examples"}}]}</script>
-<!-- / The SEO Framework by Sybre Waaijer | 4.68ms meta | 11.41ms boot -->
+<!-- / The SEO Framework by Sybre Waaijer | 4.05ms meta | 12.25ms boot -->
 
 <link rel="dns-prefetch" href="//s.w.org">
 <script>
@@ -818,13 +818,13 @@ playeroneTurn = True
 winner = False
 
 def printBoard()  :
-    print( '\n &#8211; ---')
+    print( '\n -----')
     print( '|' + choices&#91;0] + '|' + choices&#91;1] + '|' + choices&#91;2] + '|')
-    print( ' &#8211; ---')
+    print( ' -----')
     print( '|' + choices&#91;3] + '|' + choices&#91;4] + '|' + choices&#91;5] + '|')
-    print( ' &#8211; ---')
+    print( ' -----')
     print( '|' + choices&#91;6] + '|' + choices&#91;7] + '|' + choices&#91;8] + '|')
-    print( ' &#8211; ---\n')
+    print( ' -----\n')
 
 while not winner :
     printBoard()
@@ -1095,7 +1095,7 @@ player1.move(player2)
 <pre class="wp-block-code"><code>import numpy as np
 import random
 import time
-start = '-------- &#8211;  Tic Tac Toe  &#8211; --------------'
+start = '----------  Tic Tac Toe  ----------------'
 for i in start:
     print(i,end="",flush=True)
     time.sleep(.05)
@@ -2185,11 +2185,11 @@ def display_board(board):
     print('   |   |')
     print(' ' + board&#91;7] + ' ' + '| ' + board&#91;8] + ' ' + '| ' + board&#91;9])
     print('   |   |')
-    print(' &#8211; -------')
+    print(' ---------')
     print('   |   |')
     print(' ' + board&#91;4] + ' ' + '| ' + board&#91;5] + ' ' + '| ' +board&#91;6])
     print('   |   |')
-    print(' &#8211; -------')
+    print(' ---------')
     print('   |   |')
     print(' ' + board&#91;1] + ' ' + '| ' + board&#91;2] + ' ' + '| ' + board&#91;3])
     print('   |   |')
@@ -2977,7 +2977,7 @@ moves={'A1':' ', 'A2':' ', 'A3':' ', 'B1': ' ', 'B2': ' ', 'B3': ' ', 'C1': ' ',
 p1=1
 p2=0
 print("\n-How to Play: Write (For Example)  A1 X  or  a1 x  to display it on the following board.\n ")
-print("      1  2  3\n\n A   {} | {} | {} \n     &#8211; -------\n B   {} | {} | {}\n     &#8211; -------\n C   {} | {} | {}\n\n".format(moves&#91;'A1'],moves&#91;'A2'],moves&#91;'A3'],moves&#91;'B1'],moves&#91;'B2'],moves&#91;'B3'],moves&#91;'C1'],moves&#91;'C2'],moves&#91;'C3']))
+print("      1  2  3\n\n A   {} | {} | {} \n     ---------\n B   {} | {} | {}\n     ---------\n C   {} | {} | {}\n\n".format(moves&#91;'A1'],moves&#91;'A2'],moves&#91;'A3'],moves&#91;'B1'],moves&#91;'B2'],moves&#91;'B3'],moves&#91;'C1'],moves&#91;'C2'],moves&#91;'C3']))
 position=0
 def whoWon():
     if moves&#91;'A1'] == moves&#91;'A2'] == moves&#91;'A3'] == 'O' or moves&#91;'A1'] == moves&#91;'A2'] == moves&#91;'A3'] == 'X':
@@ -3023,7 +3023,7 @@ def play1():
         else:
             os.system('clear')
         moves&#91;position&#91;0].upper()]=position&#91;1].upper()
-        print("\n      1  2  3\n\n A   {}| {} |{} \n    &#8211; -------\n B   {}| {} |{}\n    &#8211; -------\n C   {}| {} | {}\n\n".format(moves&#91;'A1'], moves&#91;'A2'], moves&#91;'A3'], moves&#91;'B1'], moves&#91;'B2'], moves&#91;'B3'], moves&#91;'C1'], moves&#91;'C2'],moves&#91;'C3']))
+        print("\n      1  2  3\n\n A   {}| {} |{} \n    ---------\n B   {}| {} |{}\n    ---------\n C   {}| {} | {}\n\n".format(moves&#91;'A1'], moves&#91;'A2'], moves&#91;'A3'], moves&#91;'B1'], moves&#91;'B2'], moves&#91;'B3'], moves&#91;'C1'], moves&#91;'C2'],moves&#91;'C3']))
 def play2():
     position = input("Player 2: ")
     position = position.split()
@@ -3035,7 +3035,7 @@ def play2():
         else:
             os.system('clear')
         moves&#91;position&#91;0].upper()]=position&#91;1].upper()
-        print("\n      1  2  3\n\n A   {}| {} |{} \n    &#8211; -------\n B   {}| {} |{}\n    &#8211; -------\n C   {}| {} |{}\n\n".format(moves&#91;'A1'], moves&#91;'A2'], moves&#91;'A3'], moves&#91;'B1'], moves&#91;'B2'], moves&#91;'B3'], moves&#91;'C1'], moves&#91;'C2'],moves&#91;'C3']))
+        print("\n      1  2  3\n\n A   {}| {} |{} \n    ---------\n B   {}| {} |{}\n    ---------\n C   {}| {} |{}\n\n".format(moves&#91;'A1'], moves&#91;'A2'], moves&#91;'A3'], moves&#91;'B1'], moves&#91;'B2'], moves&#91;'B3'], moves&#91;'C1'], moves&#91;'C2'],moves&#91;'C3']))
 for goon in range(9):
     if p1 == 1:
         p1=0
@@ -3160,12 +3160,12 @@ var astra = {"break_point":"921","isRtl":""};
 </script>
 <script src="https://xcattx.com/wp-content/themes/astra/assets/js/minified/frontend.min.js" id="astra-theme-js-js"></script>
 <script id="juiz_sps_scripts-js-extra">
-var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"14f1fcc369","clickCountNonce":"699a96e81a","getCountersNonce":"ef602681c9","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
-var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"14f1fcc369","clickCountNonce":"699a96e81a","getCountersNonce":"ef602681c9","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
-var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"14f1fcc369","clickCountNonce":"699a96e81a","getCountersNonce":"ef602681c9","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
-var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"14f1fcc369","clickCountNonce":"699a96e81a","getCountersNonce":"ef602681c9","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
-var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"14f1fcc369","clickCountNonce":"699a96e81a","getCountersNonce":"ef602681c9","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
-var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"14f1fcc369","clickCountNonce":"699a96e81a","getCountersNonce":"ef602681c9","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
+var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"edafa9da49","clickCountNonce":"fa7139af47","getCountersNonce":"e811d535ba","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
+var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"edafa9da49","clickCountNonce":"fa7139af47","getCountersNonce":"e811d535ba","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
+var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"edafa9da49","clickCountNonce":"fa7139af47","getCountersNonce":"e811d535ba","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
+var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"edafa9da49","clickCountNonce":"fa7139af47","getCountersNonce":"e811d535ba","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
+var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"edafa9da49","clickCountNonce":"fa7139af47","getCountersNonce":"e811d535ba","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
+var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"edafa9da49","clickCountNonce":"fa7139af47","getCountersNonce":"e811d535ba","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
 </script>
 <script defer src="https://xcattx.com/wp-content/plugins/juiz-social-post-sharer/assets/js/juiz-social-post-sharer.min.js" id="juiz_sps_scripts-js"></script>
 <script id="jquery-lazyloadxt-js-extra">

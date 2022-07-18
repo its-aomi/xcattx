@@ -31,7 +31,7 @@
 <meta name="twitter:image:alt" content="CSS Button Hover Effects">
 <link rel="canonical" href="https://xcattx.com/css-button-hover-effects/">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://xcattx.com/","name":"xCATTX.COM"}},{"@type":"ListItem","position":2,"item":{"@id":"https://xcattx.com/category/source-codes/","name":"👨‍💻 Source Codes"}},{"@type":"ListItem","position":3,"item":{"@id":"https://xcattx.com/category/source-codes/css/","name":"💙 CSS"}},{"@type":"ListItem","position":4,"item":{"@id":"https://xcattx.com/css-button-hover-effects/","name":"10+ CSS Button Hover Effects"}}]}</script>
-<!-- / The SEO Framework by Sybre Waaijer | 4.26ms meta | 12.18ms boot -->
+<!-- / The SEO Framework by Sybre Waaijer | 4.34ms meta | 11.26ms boot -->
 
 <link rel="dns-prefetch" href="//s.w.org">
 <script>
@@ -1417,38 +1417,38 @@ a:hover {
 }
 
 .fill {
-  &#8211; color: #a972cb;
-  &#8211; hover: #cb72aa;
+  --color: #a972cb;
+  --hover: #cb72aa;
 }
 
 .pulse {
-  &#8211; color: #ef6eae;
-  &#8211; hover: #ef8f6e;
+  --color: #ef6eae;
+  --hover: #ef8f6e;
 }
 
 .close {
-  &#8211; color: #ff7f82;
-  &#8211; hover: #ffdc7f;
+  --color: #ff7f82;
+  --hover: #ffdc7f;
 }
 
 .raise {
-  &#8211; color: #ffa260;
-  &#8211; hover: #e5ff60;
+  --color: #ffa260;
+  --hover: #e5ff60;
 }
 
 .up {
-  &#8211; color: #e4cb58;
-  &#8211; hover: #94e458;
+  --color: #e4cb58;
+  --hover: #94e458;
 }
 
 .slide {
-  &#8211; color: #8fc866;
-  &#8211; hover: #66c887;
+  --color: #8fc866;
+  --hover: #66c887;
 }
 
 .offset {
-  &#8211; color: #19bc8b;
-  &#8211; hover: #1973bc;
+  --color: #19bc8b;
+  --hover: #1973bc;
 }
 
 button {
@@ -1677,29 +1677,29 @@ button:hover .button-text {
   
 &lt;style&gt;
 .button.dark {
-  &#8211; background: #2F3545;
-  &#8211; shadow: 0 2px 8px -1px rgba(21, 25, 36, 0.32);
-  &#8211; shadow-hover: 0 4px 20px -2px rgba(21, 25, 36, 0.5);
+  --background: #2F3545;
+  --shadow: 0 2px 8px -1px rgba(21, 25, 36, 0.32);
+  --shadow-hover: 0 4px 20px -2px rgba(21, 25, 36, 0.5);
 }
 .button.white {
-  &#8211; background: #fff;
-  &#8211; text: #275efe;
-  &#8211; shadow: 0 2px 8px -1px rgba(18, 22, 33, 0.04);
-  &#8211; shadow-hover: 0 4px 20px -2px rgba(18, 22, 33, 0.12);
+  --background: #fff;
+  --text: #275efe;
+  --shadow: 0 2px 8px -1px rgba(18, 22, 33, 0.04);
+  --shadow-hover: 0 4px 20px -2px rgba(18, 22, 33, 0.12);
 }
 .button.fast {
-  &#8211; duration: .32s;
+  --duration: .32s;
 }
 
 .button {
-  &#8211; background: #275efe;
-  &#8211; text: #fff;
-  &#8211; font-size: 16px;
-  &#8211; duration: .44s;
-  &#8211; move-hover: -4px;
-  &#8211; shadow: 0 2px 8px -1px rgba(39, 94, 254, 0.32);
-  &#8211; shadow-hover: 0 4px 20px -2px rgba(39, 94, 254, 0.5);
-  &#8211; font-shadow: var(--font-size);
+  --background: #275efe;
+  --text: #fff;
+  --font-size: 16px;
+  --duration: .44s;
+  --move-hover: -4px;
+  --shadow: 0 2px 8px -1px rgba(39, 94, 254, 0.32);
+  --shadow-hover: 0 4px 20px -2px rgba(39, 94, 254, 0.5);
+  --font-shadow: var(--font-size);
   padding: 16px 32px;
   font-family: "Roboto";
   font-weight: 500;
@@ -1763,17 +1763,17 @@ button:hover .button-text {
   transition-delay: 0.55s;
 }
 .button:hover {
-  &#8211; y: var(--move-hover);
-  &#8211; shadow: var(--shadow-hover);
+  --y: var(--move-hover);
+  --shadow: var(--shadow-hover);
 }
 .button:hover span {
-  &#8211; m: calc(var(--font-size) * -1);
+  --m: calc(var(--font-size) * -1);
 }
 .button.reverse {
-  &#8211; font-shadow: calc(var(--font-size) * -1);
+  --font-shadow: calc(var(--font-size) * -1);
 }
 .button.reverse:hover span {
-  &#8211; m: calc(var(--font-size));
+  --m: calc(var(--font-size));
 }
 
 html {
@@ -1816,7 +1816,7 @@ body .dribbble img {
 &lt;a href="" class="button reverse dark"&gt;Reverse&lt;/a&gt;
 &lt;a href="" class="button fast white"&gt;Fast&lt;/a&gt;
 
-&lt;! &#8211; dribbble &#8211; &gt;
+&lt;!-- dribbble --&gt;
 &lt;a class="dribbble" href="https://dribbble.com/shots/7441241-Button-Hover-Effects" target="_blank"&gt;&lt;img src="https://cdn.dribbble.com/assets/dribbble-ball-mark-2bd45f09c2fb58dbbfb44766d5d1d07c5a12972d602ef8b32204d28fa3dda554.svg" alt=""&gt;&lt;/a&gt;
     &lt;script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"&gt;&lt;/script&gt;
       &lt;script id="rendered-js" &gt;
@@ -2689,12 +2689,12 @@ var astra = {"break_point":"921","isRtl":""};
 </script>
 <script src="https://xcattx.com/wp-content/themes/astra/assets/js/minified/frontend.min.js" id="astra-theme-js-js"></script>
 <script id="juiz_sps_scripts-js-extra">
-var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"14f1fcc369","clickCountNonce":"699a96e81a","getCountersNonce":"ef602681c9","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
-var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"14f1fcc369","clickCountNonce":"699a96e81a","getCountersNonce":"ef602681c9","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
-var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"14f1fcc369","clickCountNonce":"699a96e81a","getCountersNonce":"ef602681c9","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
-var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"14f1fcc369","clickCountNonce":"699a96e81a","getCountersNonce":"ef602681c9","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
-var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"14f1fcc369","clickCountNonce":"699a96e81a","getCountersNonce":"ef602681c9","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
-var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"14f1fcc369","clickCountNonce":"699a96e81a","getCountersNonce":"ef602681c9","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
+var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"edafa9da49","clickCountNonce":"fa7139af47","getCountersNonce":"e811d535ba","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
+var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"edafa9da49","clickCountNonce":"fa7139af47","getCountersNonce":"e811d535ba","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
+var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"edafa9da49","clickCountNonce":"fa7139af47","getCountersNonce":"e811d535ba","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
+var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"edafa9da49","clickCountNonce":"fa7139af47","getCountersNonce":"e811d535ba","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
+var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"edafa9da49","clickCountNonce":"fa7139af47","getCountersNonce":"e811d535ba","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
+var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"edafa9da49","clickCountNonce":"fa7139af47","getCountersNonce":"e811d535ba","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
 </script>
 <script defer src="https://xcattx.com/wp-content/plugins/juiz-social-post-sharer/assets/js/juiz-social-post-sharer.min.js" id="juiz_sps_scripts-js"></script>
 <script id="jquery-lazyloadxt-js-extra">

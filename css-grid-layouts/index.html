@@ -31,7 +31,7 @@
 <meta name="twitter:image:alt" content="CSS Grid Layouts">
 <link rel="canonical" href="https://xcattx.com/css-grid-layouts/">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://xcattx.com/","name":"xCATTX.COM"}},{"@type":"ListItem","position":2,"item":{"@id":"https://xcattx.com/category/source-codes/","name":"👨‍💻 Source Codes"}},{"@type":"ListItem","position":3,"item":{"@id":"https://xcattx.com/category/source-codes/css/","name":"💙 CSS"}},{"@type":"ListItem","position":4,"item":{"@id":"https://xcattx.com/css-grid-layouts/","name":"15+ CSS Grid Layout Examples"}}]}</script>
-<!-- / The SEO Framework by Sybre Waaijer | 8.65ms meta | 11.54ms boot -->
+<!-- / The SEO Framework by Sybre Waaijer | 4.15ms meta | 11.60ms boot -->
 
 <link rel="dns-prefetch" href="//s.w.org">
 <script>
@@ -437,16 +437,16 @@ flexibility(document.documentElement);
 }
 
 :root {
-  &#8211; col: calc(
+  --col: calc(
   		( var(--wrapper) -
   		( (var(--numberOfColumns) - 1) * var(--gutter) ) ) / var(--numberOfColumns) );
-  &#8211; gutter: 1em;
-  &#8211; wrapper: 1100px;
-  &#8211; numberOfColumns: 12;
+  --gutter: 1em;
+  --wrapper: 1100px;
+  --numberOfColumns: 12;
 }
 @media (min-width: 1600px) {
   :root {
-    &#8211; wrapper: 1400px;
+    --wrapper: 1400px;
   }
 }
 
@@ -1203,7 +1203,7 @@ CSS Grid layout for modern browsers:
   &lt;header class="masthead"&gt;
     &lt;div class="logo"&gt;GRID PILE&lt;/div&gt;
     &lt;h2 class="site-title"&gt;Stacked CSS Grid Effect&lt;/h2&gt;
-  &lt;/header&gt;&lt;! &#8211; .masthead &#8211; &gt;
+  &lt;/header&gt;&lt;!-- .masthead --&gt;
 
   &lt;main id="content" class="main-area"&gt;
     &lt;figure class="feature"&gt;
@@ -1214,9 +1214,9 @@ CSS Grid layout for modern browsers:
         &lt;h2 class="content-title"&gt;Magical content restructuring with CSS Grid stacks&lt;/h2&gt;
         &lt;div class="splash-text"&gt;
           &lt;p&gt;Pulse&lt;/a&gt;.&lt;/p&gt;
-        &lt;/div&gt;&lt;! &#8211; .splash-text &#8211; &gt;
-      &lt;/div&gt;&lt;! &#8211; .splash-content &#8211; &gt;
-    &lt;/section&gt;&lt;! &#8211; .splash &#8211; &gt;
+        &lt;/div&gt;&lt;!-- .splash-text --&gt;
+      &lt;/div&gt;&lt;!-- .splash-content --&gt;
+    &lt;/section&gt;&lt;!-- .splash --&gt;
 
     &lt;section class="buckets"&gt;
       &lt;ul&gt;
@@ -1225,24 +1225,24 @@ CSS Grid layout for modern browsers:
           &lt;div class="bucket"&gt;
             &lt;h3 class="bucket-title"&gt;Grid is great&lt;/h3&gt;
             &lt;p&gt;Duh&lt;/p&gt;
-          &lt;/div&gt;&lt;! &#8211; .bucket &#8211; &gt;
+          &lt;/div&gt;&lt;!-- .bucket --&gt;
         &lt;/li&gt;
         &lt;li&gt;
           &lt;img src="https://source.unsplash.com/1jKjJjGgDG8/600x400" alt="Sunset over the Oslo fjord."&gt;
           &lt;div class="bucket"&gt;
             &lt;h3 class="bucket-title"&gt;Flex is great too&lt;/h3&gt;
             &lt;p&gt;Maybe&lt;/p&gt;
-          &lt;/div&gt;&lt;! &#8211; .bucket &#8211; &gt;
+          &lt;/div&gt;&lt;!-- .bucket --&gt;
         &lt;/li&gt;
       &lt;/ul&gt;
-    &lt;/section&gt;&lt;! &#8211; .buckets &#8211; &gt;
+    &lt;/section&gt;&lt;!-- .buckets --&gt;
 
     &lt;section class="more"&gt;
       &lt;div class="more-content"&gt;
         &lt;h2 class="content-title"&gt;Subgrid could be nice here&lt;/h2&gt;
         &lt;p&gt;opportunities?&lt;p&gt;
-      &lt;/div&gt;&lt;! &#8211; .more-content &#8211; &gt;
-    &lt;/section&gt;&lt;! &#8211; .more &#8211; &gt;
+      &lt;/div&gt;&lt;!-- .more-content --&gt;
+    &lt;/section&gt;&lt;!-- .more --&gt;
 
   &lt;/main&gt;
 
@@ -1255,14 +1255,14 @@ CSS Grid layout for modern browsers:
       &lt;h2 class="content-title"&gt;Second Sidebar Item&lt;/h2&gt;
       &lt;p&gt;text&lt;code&gt;aside&lt;/code&gt;text.&lt;/p&gt;
     &lt;/div&gt;
-  &lt;/aside&gt;&lt;! &#8211; .sidebar &#8211; &gt;
+  &lt;/aside&gt;&lt;!-- .sidebar --&gt;
 
   &lt;footer class="colophon"&gt;
     &lt;aside&gt;All photos: &lt;a href="https://unsplash.com/@andozo" target="_blank" rel="nofollow"&gt;Andreas Rønningen&lt;/a&gt;.&lt;/aside&gt;
     &lt;aside&gt;Content, layout, design: &lt;a href="https://twitter.com/mor10" target="_blank" rel="nofollow"&gt;Morten Rand-Hendriksen&lt;/a&gt;.&lt;/aside&gt;
   &lt;/footer&gt;
   
-&lt;/div&gt;&lt;! &#8211; .site &#8211; &gt;
+&lt;/div&gt;&lt;!-- .site --&gt;
 &lt;/body&gt;
 &lt;/html&gt;</code></pre>
 
@@ -1570,7 +1570,7 @@ CSS Grid layout for wider screens, when browser supports grid:
       &lt;img src="https://2017.europe.wordcamp.org/files/2017/03/logo-wceu17-symbol.png"&gt;
         &lt;p class="site-title"&gt;WordCamp Europe 2017&lt;/p&gt;
       &lt;p class="site-description"&gt;June 15-17, Paris, France | #WCEU&lt;/p&gt;
-    &lt;/header&gt;&lt;! &#8211; .masthead &#8211; &gt;
+    &lt;/header&gt;&lt;!-- .masthead --&gt;
   
   &lt;h1 class="page-title"&gt;Saturday, June 17th&lt;/h1&gt;
 
@@ -4317,20 +4317,20 @@ body {
 
 &lt;style&gt;
 :root {
-  &#8211; color_base: #FFF;
-  &#8211; color_mag: #FFCDD2;
-  &#8211; color_ink: #282724;
-  &#8211; color_highlight: #FFFF00;
-  &#8211; magazine: 56rem;
-  &#8211; mag_col: 12rem;
-  &#8211; gap: 1.25rem;
-  &#8211; gap_half: calc(var(--gap) / 2);
-  &#8211; border_sm: 1px;
-  &#8211; border_md: 3px;
+  --color_base: #FFF;
+  --color_mag: #FFCDD2;
+  --color_ink: #282724;
+  --color_highlight: #FFFF00;
+  --magazine: 56rem;
+  --mag_col: 12rem;
+  --gap: 1.25rem;
+  --gap_half: calc(var(--gap) / 2);
+  --border_sm: 1px;
+  --border_md: 3px;
 }
 @media screen and (min-width: 32.5rem) {
   :root {
-    &#8211; gap: calc(var(--magazine) / 24);
+    --gap: calc(var(--magazine) / 24);
   }
 }
 
@@ -4446,7 +4446,7 @@ p:last-child {
 }
 
 .o-grid {
-  &#8211; minmax: var(--mag_col);
+  --minmax: var(--mag_col);
   max-width: var(--magazine);
   background-color: var(--color_mag);
   border-left: var(--border_sm) solid var(--color_ink);
@@ -4461,7 +4461,7 @@ p:last-child {
 }
 @media screen and (min-width: 40.625rem) {
   .o-grid {
-    &#8211; minmax: 15rem;
+    --minmax: 15rem;
     grid-template-areas: ". header header header ." ". subheader subheader subheader ." ". content content profile ." ". work-sample work-sample profile ." ". footer footer footer .";
   }
 }
@@ -5964,12 +5964,12 @@ var astra = {"break_point":"921","isRtl":""};
 </script>
 <script src="https://xcattx.com/wp-content/themes/astra/assets/js/minified/frontend.min.js" id="astra-theme-js-js"></script>
 <script id="juiz_sps_scripts-js-extra">
-var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"14f1fcc369","clickCountNonce":"699a96e81a","getCountersNonce":"ef602681c9","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
-var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"14f1fcc369","clickCountNonce":"699a96e81a","getCountersNonce":"ef602681c9","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
-var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"14f1fcc369","clickCountNonce":"699a96e81a","getCountersNonce":"ef602681c9","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
-var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"14f1fcc369","clickCountNonce":"699a96e81a","getCountersNonce":"ef602681c9","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
-var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"14f1fcc369","clickCountNonce":"699a96e81a","getCountersNonce":"ef602681c9","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
-var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"14f1fcc369","clickCountNonce":"699a96e81a","getCountersNonce":"ef602681c9","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
+var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"edafa9da49","clickCountNonce":"fa7139af47","getCountersNonce":"e811d535ba","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
+var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"edafa9da49","clickCountNonce":"fa7139af47","getCountersNonce":"e811d535ba","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
+var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"edafa9da49","clickCountNonce":"fa7139af47","getCountersNonce":"e811d535ba","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
+var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"edafa9da49","clickCountNonce":"fa7139af47","getCountersNonce":"e811d535ba","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
+var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"edafa9da49","clickCountNonce":"fa7139af47","getCountersNonce":"e811d535ba","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
+var jsps = {"modalLoader":"<img src=\"https:\/\/xcattx.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"edafa9da49","clickCountNonce":"fa7139af47","getCountersNonce":"e811d535ba","ajax_url":"https:\/\/xcattx.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs • Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
 </script>
 <script defer src="https://xcattx.com/wp-content/plugins/juiz-social-post-sharer/assets/js/juiz-social-post-sharer.min.js" id="juiz_sps_scripts-js"></script>
 <script id="jquery-lazyloadxt-js-extra">
