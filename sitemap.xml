@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="https://xcattx.com/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- Sitemap is generated on 2022-07-22 18:53:00 GMT -->
+<!-- Sitemap is generated on 2022-07-23 18:32:33 GMT -->
 	<url>
 		<loc>https://xcattx.com/</loc>
-		<lastmod>2022-07-22T14:03+00:00</lastmod>
+		<lastmod>2022-07-23T13:41+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/privacy-policy/</loc>
@@ -19,16 +19,24 @@
 		<lastmod>2022-06-08T03:47+00:00</lastmod>
 	</url>
 	<url>
+		<loc>https://xcattx.com/css-pricing-tables/</loc>
+		<lastmod>2022-07-23T18:20+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/css-periodic-tables/</loc>
+		<lastmod>2022-07-23T18:21+00:00</lastmod>
+	</url>
+	<url>
 		<loc>https://xcattx.com/css-accordion-tables/</loc>
-		<lastmod>2022-07-22T18:51+00:00</lastmod>
+		<lastmod>2022-07-23T18:22+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/bootstrap-tables/</loc>
-		<lastmod>2022-07-22T18:50+00:00</lastmod>
+		<lastmod>2022-07-23T18:23+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/bootstrap-pricing-tables/</loc>
-		<lastmod>2022-07-22T18:49+00:00</lastmod>
+		<lastmod>2022-07-23T18:24+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/javascript-periodic-tables/</loc>
@@ -36,11 +44,11 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-tables/</loc>
-		<lastmod>2022-07-22T18:48+00:00</lastmod>
+		<lastmod>2022-07-23T18:25+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-play-pause-buttons/</loc>
-		<lastmod>2022-07-21T19:02+00:00</lastmod>
+		<lastmod>2022-07-23T03:40+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/bootstrap-buttons/</loc>
@@ -524,11 +532,11 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/python-password-generators/</loc>
-		<lastmod>2022-06-12T11:01+00:00</lastmod>
+		<lastmod>2022-07-23T15:07+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/javascript-clocks/</loc>
-		<lastmod>2022-06-12T11:01+00:00</lastmod>
+		<lastmod>2022-07-23T05:00+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/java-password-generators/</loc>
