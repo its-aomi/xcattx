@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="https://xcattx.com/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- Sitemap is generated on 2022-07-23 18:32:33 GMT -->
+<!-- Sitemap is generated on 2022-07-24 19:18:05 GMT -->
 	<url>
 		<loc>https://xcattx.com/</loc>
-		<lastmod>2022-07-23T13:41+00:00</lastmod>
+		<lastmod>2022-07-24T15:10+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/privacy-policy/</loc>
@@ -17,6 +17,22 @@
 	<url>
 		<loc>https://xcattx.com/about-me/</loc>
 		<lastmod>2022-06-08T03:47+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/javascript-mobile-menus/</loc>
+		<lastmod>2022-07-24T19:11+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/javascript-circle-menus/</loc>
+		<lastmod>2022-07-24T19:12+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/css-mobile-menus/</loc>
+		<lastmod>2022-07-24T19:07+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/css-circle-menus/</loc>
+		<lastmod>2022-07-24T19:07+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-pricing-tables/</loc>
