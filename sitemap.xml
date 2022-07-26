@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="https://xcattx.com/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- Sitemap is generated on 2022-07-24 19:18:05 GMT -->
+<!-- Sitemap is generated on 2022-07-26 19:52:08 GMT -->
 	<url>
 		<loc>https://xcattx.com/</loc>
-		<lastmod>2022-07-24T15:10+00:00</lastmod>
+		<lastmod>2022-07-26T07:52+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/privacy-policy/</loc>
@@ -12,11 +12,31 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/contact-us/</loc>
-		<lastmod>2022-06-08T03:48+00:00</lastmod>
+		<lastmod>2022-07-26T19:42+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/about-me/</loc>
-		<lastmod>2022-06-08T03:47+00:00</lastmod>
+		<lastmod>2022-07-25T15:03+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/javascript-accordion-menus/</loc>
+		<lastmod>2022-07-26T19:34+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/bootstrap-accordions/</loc>
+		<lastmod>2022-07-26T19:48+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/bootstrap-accordion-menus/</loc>
+		<lastmod>2022-07-26T19:48+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/javascript-accordions/</loc>
+		<lastmod>2022-07-26T19:50+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/css-accordions/</loc>
+		<lastmod>2022-07-26T19:51+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/javascript-mobile-menus/</loc>
@@ -540,11 +560,11 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/php-password-generators/</loc>
-		<lastmod>2022-06-12T11:01+00:00</lastmod>
+		<lastmod>2022-07-26T08:25+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/c-password-generators/</loc>
-		<lastmod>2022-06-12T10:58+00:00</lastmod>
+		<lastmod>2022-07-26T08:26+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/python-password-generators/</loc>
@@ -552,7 +572,7 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/javascript-clocks/</loc>
-		<lastmod>2022-07-23T05:00+00:00</lastmod>
+		<lastmod>2022-07-26T08:40+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/java-password-generators/</loc>
