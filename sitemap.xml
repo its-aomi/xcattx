@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="https://xcattx.com/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- Sitemap is generated on 2022-07-27 19:43:02 GMT -->
+<!-- Sitemap is generated on 2022-07-28 19:01:23 GMT -->
 	<url>
 		<loc>https://xcattx.com/</loc>
-		<lastmod>2022-07-27T08:08+00:00</lastmod>
+		<lastmod>2022-07-28T10:57+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/privacy-policy/</loc>
@@ -17,6 +17,38 @@
 	<url>
 		<loc>https://xcattx.com/about-me/</loc>
 		<lastmod>2022-07-25T15:03+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/css-vertical-menus/</loc>
+		<lastmod>2022-07-28T18:41+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/javascript-vertical-menus/</loc>
+		<lastmod>2022-07-28T18:41+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/bootstrap-vertical-menus/</loc>
+		<lastmod>2022-07-28T18:42+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/javascript-sidebar-menus/</loc>
+		<lastmod>2022-07-28T18:43+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/css-sidebar-menus/</loc>
+		<lastmod>2022-07-28T18:43+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/javascript-cube-root-finder/</loc>
+		<lastmod>2022-07-28T18:58+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/c-sharp-cube-root-finder/</loc>
+		<lastmod>2022-07-28T18:45+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/java-cube-root-finder/</loc>
+		<lastmod>2022-07-28T18:56+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-accordion-menus/</loc>
@@ -584,7 +616,7 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/javascript-password-generators/</loc>
-		<lastmod>2022-06-12T11:00+00:00</lastmod>
+		<lastmod>2022-07-28T10:41+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/php-password-generators/</loc>
