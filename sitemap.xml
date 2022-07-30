@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="https://xcattx.com/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- Sitemap is generated on 2022-07-29 18:59:25 GMT -->
+<!-- Sitemap is generated on 2022-07-30 18:42:41 GMT -->
 	<url>
 		<loc>https://xcattx.com/</loc>
-		<lastmod>2022-07-29T10:58+00:00</lastmod>
+		<lastmod>2022-07-30T10:50+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/privacy-policy/</loc>
@@ -17,6 +17,38 @@
 	<url>
 		<loc>https://xcattx.com/about-me/</loc>
 		<lastmod>2022-07-25T15:03+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/javascript-sliding-menus/</loc>
+		<lastmod>2022-07-30T18:05+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/javascript-hamburger-menus/</loc>
+		<lastmod>2022-07-30T18:31+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/css-instagram-login-pages/</loc>
+		<lastmod>2022-07-30T18:28+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/css-instagram-clones/</loc>
+		<lastmod>2022-07-30T18:11+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/javascript-menus/</loc>
+		<lastmod>2022-07-30T18:15+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/css-menus/</loc>
+		<lastmod>2022-07-30T18:19+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/c-sharp-prime-number-checker/</loc>
+		<lastmod>2022-07-30T18:37+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/c-prime-number-checker/</loc>
+		<lastmod>2022-07-30T18:23+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/javascript-fullscreen-menus/</loc>
