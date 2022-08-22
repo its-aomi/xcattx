@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="https://xcattx.com/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- Sitemap is generated on 2022-08-20 17:31:11 GMT -->
+<!-- Sitemap is generated on 2022-08-22 15:48:08 GMT -->
 	<url>
 		<loc>https://xcattx.com/</loc>
-		<lastmod>2022-08-20T10:55+00:00</lastmod>
+		<lastmod>2022-08-22T10:30+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/privacy-policy/</loc>
@@ -19,8 +19,12 @@
 		<lastmod>2022-07-25T15:03+00:00</lastmod>
 	</url>
 	<url>
+		<loc>https://xcattx.com/css-breadcrumbs/</loc>
+		<lastmod>2022-08-22T15:46+00:00</lastmod>
+	</url>
+	<url>
 		<loc>https://xcattx.com/css-timelines/</loc>
-		<lastmod>2022-08-20T17:25+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/javascript-timelines/</loc>
@@ -28,11 +32,11 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/html-hr-with-css/</loc>
-		<lastmod>2022-08-20T17:25+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-dividers/</loc>
-		<lastmod>2022-08-20T17:24+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/java-password-validator/</loc>
@@ -52,7 +56,7 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/html-css-resume-templates/</loc>
-		<lastmod>2022-08-19T16:21+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/c-sharp-password-validator/</loc>
@@ -84,11 +88,11 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-galleries/</loc>
-		<lastmod>2022-08-16T16:20+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-blockquotes/</loc>
-		<lastmod>2022-08-15T18:58+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/bootstrap-blockquotes/</loc>
@@ -100,7 +104,7 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-progress-bars/</loc>
-		<lastmod>2022-08-15T18:56+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/jquery-progress-bars/</loc>
@@ -140,15 +144,15 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-animated-backgrounds/</loc>
-		<lastmod>2022-08-12T17:17+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-background-patterns/</loc>
-		<lastmod>2022-08-12T17:17+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-fixed-backgrounds/</loc>
-		<lastmod>2022-08-12T17:16+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/javascript-background-patterns/</loc>
@@ -160,23 +164,23 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-particle-backgrounds/</loc>
-		<lastmod>2022-08-11T15:58+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-square-backgrounds/</loc>
-		<lastmod>2022-08-11T15:58+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-triangle-backgrounds/</loc>
-		<lastmod>2022-08-11T15:58+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-circle-backgrounds/</loc>
-		<lastmod>2022-08-11T15:57+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-headers/</loc>
-		<lastmod>2022-08-10T15:31+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/bootstrap-footers/</loc>
@@ -184,7 +188,7 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-footers/</loc>
-		<lastmod>2022-08-10T15:32+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/javascript-footers/</loc>
@@ -208,7 +212,7 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-forms/</loc>
-		<lastmod>2022-08-09T15:35+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/bootstrap-login-forms/</loc>
@@ -220,7 +224,7 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-login-forms/</loc>
-		<lastmod>2022-08-09T15:36+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/javascript-forms/</loc>
@@ -272,11 +276,11 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-contact-forms/</loc>
-		<lastmod>2022-08-05T17:39+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-checkout-forms/</loc>
-		<lastmod>2022-08-05T17:40+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/bootstrap-checkout-forms/</loc>
@@ -300,7 +304,7 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-logos/</loc>
-		<lastmod>2022-08-04T18:40+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/javascript-logos/</loc>
@@ -308,7 +312,7 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-subscribe-forms/</loc>
-		<lastmod>2022-08-04T18:49+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/javascript-subscribe-forms/</loc>
@@ -324,7 +328,7 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-slideshows/</loc>
-		<lastmod>2022-08-03T18:04+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/jquery-slick-sliders/</loc>
@@ -364,7 +368,7 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-range-sliders/</loc>
-		<lastmod>2022-08-02T16:25+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/bootstrap-range-sliders/</loc>
@@ -372,7 +376,7 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-responsive-sliders/</loc>
-		<lastmod>2022-08-02T16:33+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/javascript-responsive-sliders/</loc>
@@ -384,7 +388,7 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-fullscreen-sliders/</loc>
-		<lastmod>2022-08-01T18:18+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/javascript-comparison-sliders/</loc>
@@ -392,15 +396,15 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-comparison-sliders/</loc>
-		<lastmod>2022-08-01T16:54+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-facebook-clones/</loc>
-		<lastmod>2022-08-01T16:53+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-facebook-login-pages/</loc>
-		<lastmod>2022-08-01T16:53+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/php-prime-number-checker/</loc>
@@ -416,19 +420,19 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-pinterest-login-pages/</loc>
-		<lastmod>2022-07-31T17:45+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-pinterest-clones/</loc>
-		<lastmod>2022-07-31T17:44+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-twitter-login-pages/</loc>
-		<lastmod>2022-07-31T17:42+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-twitter-clones/</loc>
-		<lastmod>2022-07-31T17:40+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/cpp-prime-number-checker/</loc>
@@ -444,11 +448,11 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-instagram-login-pages/</loc>
-		<lastmod>2022-07-30T18:28+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-instagram-clones/</loc>
-		<lastmod>2022-07-30T18:11+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/javascript-menus/</loc>
@@ -456,7 +460,7 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-menus/</loc>
-		<lastmod>2022-07-30T18:19+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/c-sharp-prime-number-checker/</loc>
@@ -472,15 +476,15 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-fullscreen-menus/</loc>
-		<lastmod>2022-07-29T18:44+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-sliding-menus/</loc>
-		<lastmod>2022-07-29T18:47+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-hamburger-menus/</loc>
-		<lastmod>2022-07-29T18:49+00:00</lastmod>
+		<lastmod>2022-08-22T03:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/python-cube-root-finder/</loc>
@@ -488,7 +492,7 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-vertical-menus/</loc>
-		<lastmod>2022-07-28T18:41+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/javascript-vertical-menus/</loc>
@@ -504,7 +508,7 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-sidebar-menus/</loc>
-		<lastmod>2022-07-28T18:43+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/javascript-cube-root-finder/</loc>
@@ -520,15 +524,15 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-accordion-menus/</loc>
-		<lastmod>2022-07-27T19:29+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-responsive-tables/</loc>
-		<lastmod>2022-07-27T19:31+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-dropdown-menus/</loc>
-		<lastmod>2022-07-27T19:32+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/javascript-dropdown-menus/</loc>
@@ -564,7 +568,7 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-accordions/</loc>
-		<lastmod>2022-07-26T19:51+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/javascript-mobile-menus/</loc>
@@ -576,23 +580,23 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-mobile-menus/</loc>
-		<lastmod>2022-07-24T19:07+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-circle-menus/</loc>
-		<lastmod>2022-07-24T19:07+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-pricing-tables/</loc>
-		<lastmod>2022-07-23T18:20+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-periodic-tables/</loc>
-		<lastmod>2022-07-23T18:21+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-accordion-tables/</loc>
-		<lastmod>2022-07-23T18:22+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/bootstrap-tables/</loc>
@@ -608,11 +612,11 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-tables/</loc>
-		<lastmod>2022-07-23T18:25+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-play-pause-buttons/</loc>
-		<lastmod>2022-07-23T03:40+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/bootstrap-buttons/</loc>
@@ -620,7 +624,7 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-button-click-effects/</loc>
-		<lastmod>2022-07-21T19:09+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/javascript-button-click-effects/</loc>
@@ -644,11 +648,11 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-gradient-buttons/</loc>
-		<lastmod>2022-07-19T17:00+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-radio-buttons/</loc>
-		<lastmod>2022-07-19T16:59+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/javascript-close-buttons/</loc>
@@ -668,43 +672,43 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-buttons/</loc>
-		<lastmod>2022-07-16T19:22+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-close-buttons/</loc>
-		<lastmod>2022-07-16T19:22+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-3d-buttons/</loc>
-		<lastmod>2022-07-16T19:21+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-submit-buttons/</loc>
-		<lastmod>2022-07-16T19:21+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-download-buttons/</loc>
-		<lastmod>2022-07-16T19:20+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-button-hover-effects/</loc>
-		<lastmod>2022-07-17T09:04+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-recipe-layouts/</loc>
-		<lastmod>2022-07-15T17:06+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-grid-layouts/</loc>
-		<lastmod>2022-07-15T17:10+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-blog-layouts/</loc>
-		<lastmod>2022-07-13T19:09+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-flexbox-layouts/</loc>
-		<lastmod>2022-07-13T19:12+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/bootstrap-cards/</loc>
@@ -716,15 +720,15 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-card-hover-effects/</loc>
-		<lastmod>2022-07-16T05:23+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-product-cards/</loc>
-		<lastmod>2022-07-16T05:24+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-blog-cards/</loc>
-		<lastmod>2022-07-16T05:24+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/cpp-reverse-a-number/</loc>
@@ -752,23 +756,23 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-news-cards/</loc>
-		<lastmod>2022-07-16T05:25+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-weather-cards/</loc>
-		<lastmod>2022-07-09T18:16+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-movie-cards/</loc>
-		<lastmod>2022-07-16T05:28+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-recipe-cards/</loc>
-		<lastmod>2022-07-16T05:29+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-music-cards/</loc>
-		<lastmod>2022-07-16T05:31+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/python-odd-even/</loc>
@@ -796,15 +800,15 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-business-cards/</loc>
-		<lastmod>2022-07-05T19:44+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-credit-cards/</loc>
-		<lastmod>2022-07-05T19:54+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-flip-cards/</loc>
-		<lastmod>2022-07-05T20:03+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/python-armstrong-checker-finder/</loc>
@@ -836,23 +840,23 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-netflix-login-pages/</loc>
-		<lastmod>2022-07-02T18:19+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-netflix-logos/</loc>
-		<lastmod>2022-07-02T18:18+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-youtube-logos/</loc>
-		<lastmod>2022-07-02T18:18+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-netflix-clones/</loc>
-		<lastmod>2022-07-01T19:15+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-youtube-clones/</loc>
-		<lastmod>2022-07-01T19:12+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/javascript-factorial-calculators/</loc>
@@ -1036,15 +1040,15 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-sliders/</loc>
-		<lastmod>2022-06-18T15:39+00:00</lastmod>
+		<lastmod>2022-08-22T03:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/bootstrap-sliders/</loc>
-		<lastmod>2022-07-21T15:17+00:00</lastmod>
+		<lastmod>2022-08-22T15:45+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/jquery-sliders/</loc>
-		<lastmod>2022-06-18T15:40+00:00</lastmod>
+		<lastmod>2022-08-22T15:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/python-decimal-to-binary-converters/</loc>
@@ -1068,11 +1072,11 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-profile-cards/</loc>
-		<lastmod>2022-07-31T17:20+00:00</lastmod>
+		<lastmod>2022-08-22T10:41+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-cards/</loc>
-		<lastmod>2022-07-31T17:36+00:00</lastmod>
+		<lastmod>2022-08-22T08:23+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/beautify-ugly-code/</loc>
