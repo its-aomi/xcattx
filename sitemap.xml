@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="https://xcattx.com/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- Sitemap is generated on 2022-08-22 15:48:08 GMT -->
+<!-- Sitemap is generated on 2022-08-23 18:07:44 GMT -->
 	<url>
 		<loc>https://xcattx.com/</loc>
-		<lastmod>2022-08-22T10:30+00:00</lastmod>
+		<lastmod>2022-08-23T10:53+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/privacy-policy/</loc>
@@ -17,6 +17,26 @@
 	<url>
 		<loc>https://xcattx.com/about-me/</loc>
 		<lastmod>2022-07-25T15:03+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/css-border-animations/</loc>
+		<lastmod>2022-08-23T18:04+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/javascript-border-animations/</loc>
+		<lastmod>2022-08-23T18:05+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/bootstrap-breadcrumbs/</loc>
+		<lastmod>2022-08-23T18:05+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/javascript-snake-games/</loc>
+		<lastmod>2022-08-23T18:05+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://xcattx.com/react-snake-games/</loc>
+		<lastmod>2022-08-23T18:05+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-breadcrumbs/</loc>
@@ -852,11 +872,11 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-netflix-clones/</loc>
-		<lastmod>2022-08-22T03:15+00:00</lastmod>
+		<lastmod>2022-08-23T04:36+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-youtube-clones/</loc>
-		<lastmod>2022-08-22T03:15+00:00</lastmod>
+		<lastmod>2022-08-23T04:17+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/javascript-factorial-calculators/</loc>
@@ -1040,7 +1060,7 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-sliders/</loc>
-		<lastmod>2022-08-22T03:15+00:00</lastmod>
+		<lastmod>2022-08-23T03:59+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/bootstrap-sliders/</loc>
@@ -1072,7 +1092,7 @@
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-profile-cards/</loc>
-		<lastmod>2022-08-22T10:41+00:00</lastmod>
+		<lastmod>2022-08-23T03:40+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://xcattx.com/css-cards/</loc>
